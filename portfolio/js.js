@@ -27,6 +27,7 @@ function validateEmail(){
 $(document).ready(function(){
     (function() {
         var test;
+        var koval;
         "use strict";
 
         var toggles = document.querySelectorAll(".cmn-toggle-switch");
