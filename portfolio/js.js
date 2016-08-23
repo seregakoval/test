@@ -25,9 +25,8 @@ function validateEmail(){
 }
 
 $(document).ready(function(){
-
     (function() {
-
+        var test;
         "use strict";
 
         var toggles = document.querySelectorAll(".cmn-toggle-switch");
@@ -50,7 +49,7 @@ $(document).ready(function(){
         if($(this).hasClass("active")){
             $(".menu-wrap").css({"display":"block"});
             $(".menu-wrap").addClass("animated slideInLeft");
-            
+
         }
     });
     /*end nav menu*/
@@ -169,4 +168,3 @@ $(document).ready(function(){
     });
 
 });
-
